@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+
+        <title>Clyde John Portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    </head>
+    <body>
+
+        <div class="loader">
+            <div class="loader_inner"></div>
+        </div>
+        <div class="loader_inner"></div>
+        
+        <!--Navigation Top Bar-->
+        <nav class="navbar">
+           <div class="max-width">
+               <div class="logo">
+                   <a href="#">Welcome<span>Guest.</span></a>
+               </div>
+               <ul class="menu">
+                   <li><a href="#home">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#skills">Skills</a></li>
+                   <li><a href="#projects">Projects</a></li>
+                   <li><a href="#education">Education</a></li>
+                   <li><a href="#education">Experience</a></li>
+                   <li><a href="#contact">Contact</a></li>
+               </ul>
+               <div class="menu-btn">
+                   <i class="fas fa-bars"></i>
+               </div>
+           </div>
+        </nav>
+
+        <!--Home Section-->
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1" id="helloMessage"></div>
+                    <div class="text-2">Clyde John</div>
+                    <div class="text-3">and I'm a <span class="typing"></span></div>
+                    <a href="#">Hire Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--About Section-->
+        <section class="about" id="about">
+            <div class="max-width">
+                <h2 class="title">About me</h2>
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="images/profile1.jpg" alt="">
+                    </div>
+                    <div class="column right">
+                        <div class="text">I'm Clyde Rempillo from <span>Windsor, Ontario, Canada</span></div>
+                        <p>
+                            My name is Clyde Rempillo and I am a graduating Computer Science student at the University of Windsor. Over the past 4 years, I have mostly spent time as an undergrad student at the University of Windsor. I am currently taking up Bachelor’s in Computer Science with Software Engineering Specialization with a minor in Mathematics. I have spent most of my time learning languages such as Java, JavaScript, JavaCup, Kotlin, Python, HTML, CSS, SQL, Lex, C, C++, and C# to add to my programming experiences. I have been able to program several products such as an android streaming software that I developed with my colleagues at the University using Android Studio software. I have also learned advanced game development using C# language on Unity. I developed a game package that demonstrates my overall understanding in game development and maintenance through Unity developing software. I also have background in Website Development as well as Machine Learning using the Bayesian Algorithm.
+                        </p>
+                        <a href="#">Download CV/Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills Section-->
+        <section class="skills" id="skills">
+            <div class="max-width">
+                <h2 class="title">Skills</h2>
+                <div class="skills-content">
+                    <div class="column left">
+                        <div class="card">
+                            <i class="fas fa-laptop-code fa-lg"></i>
+                            <div class="card-title">Front-end</div>
+                        </div>
+                        <div class="card-content">
+                            <p><ul>
+                                <li>Bootstrap</li>
+                                <li>JQuery</li>
+                                <li>React.js</li>
+                                <li>HTML, CSS, SASS</li>
+                                <li>JavaScript</li>
+                                <li>Adobe Front-End UX</li>
+                                <li>Unity Framework</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column mid">
+                        <div class="card">
+                            <i class="fas fa-database fa-lg"></i>
+                            <div class="card-title">Back-end</div>
+                        </div>
+                        <div class="card-content">
+                            <p><ul>
+                                <li>Microsoft SQL</li>
+                                <li>Google Firebase</li>
+                                <li>mySQL</li>
+                                <li>Java</li>
+                                <li>C++</li>
+                                <li>PHP</li>
+                                <li>Python</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column right">
+                        <div class="card">
+                            <i class="fas fa-user fa-lg"></i>
+                            <div class="card-title">Others</div>
+                        </div>
+                        <div class="card-content">
+                            <p><ul>
+                                <li>Unit Testing</li>
+                                <li>Adobe Photoshop</li>
+                                <li>UX/Wireframing</li>
+                                <li>WIX</li>
+                                <li>Mobile App Dev</li>
+                                <li>Unity Game Dev</li>
+                                <li>C, C#, Kotlin, Swift, etc.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Projects Section-->
+        <section class="projects" id="projects">
+            <div class="max-width">
+                <h2 class="title">Projects and Papers</h2>
+                <div class="projects-content">
+                    <div class="projects-table">
+                        <div class="projects-box">
+                            <img src="images/myacadvisor.png" alt="">
+                            <a class="overlay" href="https://myacadvisor.web.app/" target="_blank">
+                                <div class="text">
+                                    Go to Website
+                                </div>
+                            </a>
+                        </div>
+                        <div class="projects-box">
+                            <img src="images/streamflix.png" alt="">
+                            <a class="overlay" href="https://myacadvisor.web.app/" target="_blank">
+                                <div class="text">
+                                    Go to GitHub
+                                </div>
+                            </a>
+                        </div>
+                        <div class="projects-box">
+                            <img src="images/peeksearch.png" alt="">
+                            <div class="overlay">
+                                <div class="text">
+                                    Go to GitHub
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Education Section-->
+        <section class="education" id="education">
+            <div class="max-width">
+                <h2 class="title">Education</h2>
+                <div class="education-content">
+                    <div class="column left">
+                        <img src="images/uwindsor.png" alt="uwindsor logo"><br><br>
+                        <img src="images/stj.png" alt="stj"><br>
+                        <img src="images/stp.png" alt="sph">
+                    </div>
+                    <div class="column mid">
+                        <div class="text">University of Windsor
+                            <span>(2016-2021)</span>
+                        </div>
+                        <p>
+                            Bachelors in Computer Science
+                            <li>
+                                Software Engineering Specialization
+                            </li>
+                            <li>
+                                Minor in Mathematics
+                            </li>
+                        </p><br>
+                        <div class="text">St. Joseph's Catholic High School
+                            <span>(2014-2016)</span>
+                        </div>
+                        <p>
+                            High School Diploma - Honour Roll Awardee (89% GPA)
+                            <li>
+                                Robotics Team Member - Programmer
+                            </li>
+                            <li>
+                                Science Club Member
+                            </li>
+                        </p><br>
+                        <div class="text">Ecole St. Patrick High School
+                            <span>(2012-2014)</span>
+                        </div>
+                        <p>
+                            Honour Roll Awardee (88% - 90% GPA)
+                            <li>
+                                Advanced Math, English and Science student
+                            </li>
+                            <li>
+                                Math club representative
+                            </li>
+                        </p>
+                    </div>
+                    
+                    <div class="column right">
+                        <h2 class="title">Professors</h2>
+                        <div class="row">
+                                <img id="prof1" src="images/abed.jpeg" alt="Snow" style="width:100%">
+                                <img id="prof2" src="images/sherif.jpg" alt="Forest" style="width:100%">
+                                <img id="prof3" src="images/dima.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="prof-info" id="prof-info">
+                            PRofinfo
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact Section-->
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title">Contact me</h2>
+                <div class="contact-content">
+                    <div class="container">
+                        <form action="/action_page.php">
+                          <label for="fname">First Name:</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label for="lname">Last Name:</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                          <label for="lname">Phone Number:</label>
+                          <input type="tel" id="phonenum" name="phonenum" placeholder="(xxx)-xxx-xxxx">
+
+                          <label for="lname">Email Address:</label>
+                          <input type="email" id="email" name="phonenum" placeholder="johndoe@email.com">
+
+                          <label for="country">How did you find me?</label>
+                          <select id="country" name="country">
+                            <option value="australia">Indeed</option>
+                            <option value="canada">LinkedIN</option>
+                            <option value="usa">Others</option>
+                          </select>
+                      
+                          <label for="subject">Message:</label>
+                          <textarea id="subject" name="subject" placeholder="Write your message here..." style="height:200px"></textarea>
+                      
+                          <input class="submit-btn" type="submit" value="Submit">
+                        </form>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!--COOKIES SECTION-->
+        <section>
+            <div class="cookies">
+                <p>
+                    This website uses cookies to ensure you get the best experience on our website. <a href="#">Cookies Policy</a>.
+                    <input id="cookies-btn" type="button" value="Accept">
+                </p>
+            </div>
+        </section>
+        <!--FOOTER-->
+        <!-- Footer -->
+x
+        <!--SCRIPTS-->
+        <script src="js/main.js"></script>
+        <script src="js/ipCapture.js"></script>
+    </body>
+</html>
